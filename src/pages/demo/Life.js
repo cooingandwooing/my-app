@@ -1,5 +1,6 @@
 import React from 'react'
 import Child from './Child'
+import './index.css'
 
 export default class Life extends React.Component {
 
