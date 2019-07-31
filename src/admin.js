@@ -3,6 +3,7 @@ import { Row, Col } from 'antd';
 import Header from './components/Header';// 默认加载 index.js 
 import Footer from './components/Footer';
 import NavLeft from './components/NavLeft';
+import Home from './pages/home';
 import './style/common.less';
 
 // 继承是要使用它的生命周期
@@ -19,7 +20,7 @@ export default class Admin extends React.Component {
                 <Col span={20} className="main">
                     <Header />
                     <Row className="content">
-                        Content
+                        <Home />
                     </Row>
                     <Footer />
                 </Col>
