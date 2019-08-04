@@ -6,7 +6,10 @@ export default class Main extends React.Component {
     render() {
         return (
             <div>
-                this is main
+                this is main2
+                <Link to="/main/a">嵌套路由</Link>
+                <hr />
+                {this.props.children}
             </div>
         )
     }

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Life from './pages/demo/Life';
 import Admin from './admin';
-import Router from './../src/pages/router_demo/router2/router';
+import Router from './../src/pages/router_demo/router3/router';
 import Home from './../src/pages/router_demo/router1/Home';
 import * as serviceWorker from './serviceWorker';
 
