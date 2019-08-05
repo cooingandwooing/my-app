@@ -8,11 +8,12 @@ export default class Axios {
             }, function (err, response) {
                 // to-do
                 //debugger;
-                console.log(response);
-                if (response.status == 'success') {
-                    resolve(response);
-                } else {
-                    reject(response.message);
+                if(response !== 'undefined' && response.status !== 'undefined'){
+                    if (response.status === 'success') {
+                        resolve(response);
+                    } else {
+                        reject(response.message);
+                    }
                 }
             })
         });
