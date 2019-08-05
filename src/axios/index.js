@@ -8,7 +8,7 @@ export default class Axios {
             }, function (err, response) {
                 // to-do
                 //debugger;
-                if(response !== 'undefined' && response.status !== 'undefined'){
+                if (response && response.status) {
                     if (response.status === 'success') {
                         resolve(response);
                     } else {
